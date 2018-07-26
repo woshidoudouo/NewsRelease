@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTDConfig3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+	<!-- 给类起别名 -->
+	<typeAliases>
+		<!-- 给包中的类起别名,别名是简单类名(首字母大小写都行) -->
+		<package name="cn.xw.pojo"></package>
+	</typeAliases>
+
+</configuration>
+
